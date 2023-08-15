@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position IN css</title>
+    <style>
+        .swiming
+        {
+            position: relative;
+        }
+        .swiming div
+        {
+            border: 1px dotted black;
+            width: 200px;
+        }
+        #ring{
+            
+            left: 0px;
+            top: 200px;
+        }
+        .dummy{
+            height: 100px;
+            background-color: pink;
+        }
+        #boy{
+            position: relative;
+            top: 80px;
+            z-index: 2;
+
+        }
+        #ring{
+            position: relative; 
+             
+             top: -5px;
+             z-index: 1;
+        }
+        #water{
+            position: relative;
+            top: -75px;
+            
+            
+           
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>This is My Header Section</h1>
+        <h1>Currently learnig Position</h1>
+        <h2>I have a higher Position</h2>
+    </section>
+
+    <section class="swiming">
+        <div id="boy"><img src="image/boy.svg" alt=""></div>
+        <div id="ring"><img src="image/ring.svg" alt=""></div>
+        <div id="water"><img src="image/water.svg" alt=""></div>
+
+        <div class="dummy">div-1</div>
+        <div class="dummy">div-2</div>
+        <div class="dummy">div-3</div>
+        <div class="dummy">div-4</div>
+        <div class="dummy">div-5</div>
+        <div class="dummy">div-6</div>
+        <div class="dummy">div-7</div>
+        <div class="dummy">div-8</div>
+        <div class="dummy">div-9</div>
+        <div class="dummy">div-10</div>
+        <div class="dummy">div-11</div>
+        <div class="dummy">div-12</div>
+        <div class="dummy">div-13</div>
+        <div class="dummy">div-14</div>
+        <div class="dummy">div-15</div>
+        <div class="dummy">div-16</div>
+    </section>
+    <section>
+        <h2>This is saperate area</h2>
+        <div class="dummy">div-1</div>
+        <div class="dummy">div-2</div>
+        <div class="dummy">div-3</div>
+        <div class="dummy">div-4</div>
+        <div class="dummy">div-5</div>
+        <div class="dummy">div-6</div>
+        <div class="dummy">div-7</div>
+        <div class="dummy">div-8</div>
+        <div class="dummy">div-9</div>
+        <div class="dummy">div-10</div>
+        <div class="dummy">div-11</div>
+        <div class="dummy">div-12</div>
+        <div class="dummy">div-13</div>
+        <div class="dummy">div-14</div>
+        <div class="dummy">div-15</div>
+        <div class="dummy">div-16</div>
+        <div class="dummy">div-17</div>
+        <div class="dummy">div-18</div>
+        <div class="dummy">div-19</div>
+        <div class="dummy">div-20</div>
+    </section>
+</body>
+</html>
