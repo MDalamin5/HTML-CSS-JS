@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bat-animation</title>
+    <style>
+        .bat{
+            width: 300px;
+        }
+        .field:hover .bat{
+            transform: rotate(-60deg);
+            transform-origin: top right ;
+        }
+        .field{
+            border: 1px solid blue;
+        }
+        .ball{
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: red;
+            position: relative;
+            left: 250px;
+            top: -39px;
+            transition: transform 0.5s ease-out 0.1s;
+        }
+        .bat{
+            transition: transform 0.2s ease-in;
+        }
+        .field:hover .ball{
+            transform: translate(450px, -100px);
+        }
+    </style>
+</head>
+<body>
+   <div class="field">
+    <img class="bat" src="Image/pngwing.com.png" alt="" >
+
+    <div class="ball">
+
+    </div>
+   </div>
+   
+</body>
+</html>
