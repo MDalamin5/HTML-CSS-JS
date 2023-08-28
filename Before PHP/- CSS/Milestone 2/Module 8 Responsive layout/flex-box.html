@@ -5,28 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flaex-box</title>
     <style>
+        .container{
+            
+            display: flex;
+            border: 1px dotted black;
+            width: 100%;
+            height: 500px;
+            
+            
+            
+
+           
+        }
         .box{
-            display: flexbox;
-            height: 400px;
-            width: 440px;
-            background-color: lemonchiffon;
-            border: 2px solid paleturquoise;
+            font-size: 2em;
+            border: 2px solid blue;
+            
+            width: 125px;
+            background-color: lightblue;
+        }
+        p{
+            text-align: center;
+            color: rgb(60, 39, 1);
+        }
+        #box-2
+        {
+            flex-grow: 1;
+        }
+        #box-1{
+            order: 2;
         }
     </style>
 </head>
 <body>
-    <h1>Box Layout</h1>
-    <div class="box">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde maiores mollitia, consequuntur delectus autem dicta, aliquid reiciendis quasi accusamus ipsam possimus rem, facere repellendus harum. Quisquam, veniam dolor totam in itaque voluptates, ullam culpa neque molestiae praesentium a soluta dolore! Ea, vitae cumque omnis excepturi incidunt dolor fugiat perferendis enim expedita voluptatibus at. Nostrum, debitis numquam inventore facere magni ipsum deserunt nam quis rerum iusto quo doloremque? Nesciunt nisi obcaecati sit aliquam porro deserunt, fugit sed. Totam cumque reprehenderit, alias quas reiciendis tempora nesciunt nemo consectetur repellat, doloremque corporis, vitae neque? Repellendus dolorum corrupti enim illo quia blanditiis eaque voluptas.</p>
-    </div>
-    <div class="box">
-        <p>Labore enim nostrum est laudantium quisquam ipsum ex corrupti eos, ad accusamus placeat expedita possimus reiciendis esse asperiores temporibus eius dolorum! Eligendi in odit nostrum possimus doloribus dolorum ducimus dolore repudiandae maxime vitae, dolorem blanditiis ut iusto nulla doloremque. Nobis, quia voluptatum inventore quis laboriosam reprehenderit? Ducimus consequuntur, tenetur sequi culpa sapiente animi. Voluptatum qui, alias excepturi aperiam nesciunt sed ipsum ducimus dolor quos sunt est non iste reprehenderit libero nemo ipsa cum similique. Temporibus accusamus voluptatibus ipsam facilis exercitationem eveniet dicta tempore deserunt et accusantium nulla ullam, quisquam eaque autem provident consequuntur cum quasi culpa officia labore voluptate? Deleniti.</p>
-    </div>
-    <div class="box">
-        <p>Rerum eum possimus, quis voluptatem blanditiis aspernatur recusandae et qui mollitia, velit, illum aut laudantium quo. Saepe consequatur quis modi, fugit enim asperiores corrupti non ullam error? Quis eos in accusantium cum tenetur quos illum enim esse nisi ab, praesentium excepturi numquam ut natus qui, totam asperiores? Consequuntur, ad dicta repellat suscipit molestiae iusto qui ullam quia distinctio inventore tenetur cupiditate? Amet, impedit aliquam. Deleniti illo quod perferendis, dolorem atque ad culpa magnam eum reiciendis iste eligendi inventore maxime, facilis sunt hic quae quidem, minus rerum. Autem aut corporis molestias alias expedita corrupti atque, architecto sit qui aperiam, ex praesentium?</p>
-    </div>
-    <div class="box">
-        <p>Qui explicabo id et vel aperiam debitis vitae adipisci voluptas voluptates aliquam fugiat repellendus dolorum, magnam dicta quas atque excepturi velit ex? Omnis quo vel, corporis architecto eum quidem, vitae laborum itaque neque at pariatur excepturi libero officiis. Neque quibusdam pariatur reprehenderit ratione quas impedit blanditiis, in repellat aperiam. Corrupti ipsa, reiciendis, dolorem inventore facere soluta eveniet eligendi enim, voluptatum animi quibusdam? Error, et. Odio doloremque, dicta reprehenderit neque natus distinctio harum cupiditate! In est veritatis assumenda reiciendis vel facere? Dolorum laboriosam in, eum, facilis optio tempore cum laudantium qui suscipit officia ratione neque doloremque, ullam autem perferendis dolorem sint.</p>
+    <h1>Box Layout Flexbox</h1>
+    <div class="container">
+        <div id="box-1" class="box">
+            <p>box-1</p>
+        </div>
+        <div id="box-2" class="box">
+            <p>box-2</p>
+        </div>
+        
+        
     </div>
 </body>
 </html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Form</title>
+    <script src="https://kit.fontawesome.com/fbf5046c0b.js" crossorigin="anonymous"></script>
+    <style>
+        .login-container{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+        }
+        .login-form input, button{
+            border: 1px solid yellowgreen;
+            padding-left: 5px;
+            border-radius: 15px;
+            margin: 3px;
+        }
+        button{
+            width: 50px;
+            background-color: orange;
+            color: whitesmoke;
+            font-weight: 700;
+            border: 0;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <form class="login-form" action="">
+            <h2>Login</h2>
+            <input type="email" placeholder="Enter Your email" required>
+            <input type="password" placeholder="Enter Your password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
