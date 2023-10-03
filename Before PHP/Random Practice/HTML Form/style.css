@@ -1,0 +1,7 @@
+body{
+    background-color: lightslategrey;
+}
+textarea{
+    width: 80%;
+    resize: vertical;
+}
